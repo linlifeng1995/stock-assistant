@@ -12,17 +12,17 @@
     "postinstall": "electron-rebuild -f -w better-sqlite3 || npm rebuild better-sqlite3"
   },
   "devDependencies": {
-    "@electron/rebuild": "^3.6.0",
+    "@electron/rebuild": "^4.0.4",
     "@types/better-sqlite3": "^7.6.8",
     "@types/node": "^20.14.0",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react": "^4.3.1",
-    "electron": "^32.0.0",
-    "electron-builder": "^24.13.3",
-    "electron-vite": "^2.3.0",
+    "electron": "^42.1.0",
+    "electron-builder": "^26.10.0",
+    "electron-vite": "^5.0.0",
     "typescript": "^5.5.2",
-    "vite": "^5.3.1"
+    "vite": "^7.3.3"
   },
   "dependencies": {
     "antd": "^5.19.0",
