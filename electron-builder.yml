@@ -1,0 +1,13 @@
+appId: com.stockassistant.app
+productName: Stock Assistant
+directories:
+  output: dist
+files:
+  - out/**/*
+  - package.json
+mac:
+  category: public.app-category.finance
+win:
+  target: nsis
+linux:
+  target: AppImage
